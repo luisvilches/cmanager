@@ -1,0 +1,19 @@
+{
+  "name": "gestosproyectos",
+  "version": "0.0.1",
+  "description": "Gestor de proyectos, es un software sencillo que permite llevar la documentacion de los proyectos creados por la empresa",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index"
+  },
+  "author": "Luis vilches",
+  "license": "ISC",
+  "dependencies": {
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.1.3"
+  }
+}
