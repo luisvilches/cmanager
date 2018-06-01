@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let Model = new Schema({
+let Cliente = new Schema({
     name:String,
     contacts:[
         {
@@ -17,4 +17,4 @@ let Model = new Schema({
     phone:String
 });
 
-module.exports = mongoose.model('Model',Model);
+module.exports = mongoose.model('Cliente',Cliente);

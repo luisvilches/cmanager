@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-let Model = new Schema({
+let Proyecto = new Schema({
     name:String,
     slug:String,
     client:{
@@ -52,4 +52,4 @@ let Model = new Schema({
 
 });
 
-module.exports = mongoose.model('Model',Model);
+module.exports = mongoose.model('Proyecto',Proyecto);
